@@ -1,0 +1,87 @@
+.wyzHeader .navbar-dark .navbar-toggler {
+    background: transparent !important;
+    padding: 0px 0px !important;
+    font-size: 23px;
+    border: 1px solid transparent !important;
+    margin-top: 1rem;
+
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 0px 0px 0px 10px !important;
+    margin-right: 15px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.newClass{
+    display: flex;
+    justify-content: center;
+}
+.Toggle_class{
+    display: flex;
+    /* justify-content: space-between; */
+}
+@media (min-width:600px) and (max-width: 768px){
+.wyzHeader .navbar-nav {
+    position: relative !important;
+    z-index: 999;
+    background: transparent !important;
+    padding: 0px !important;
+    width:100% !important;
+    
+}
+.wyzHeader .navbar-nav .nav-item {
+    background-color: transparent !important;
+    margin-left: 1rem;
+}
+}
+
+body {
+    background-color: #fff;
+    /* font: 500 1rem "Cairo",Arial,Helvetica,sans-serif; */
+    font-family: MessinaSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color: #000;
+}
+
+
+.wyz_content p{
+    font-size: 20px !important;
+}
+
+@media screen and (max-width:800px) {
+    .nav_image{
+        width: 30% !important;
+    }
+}
+
+.nav_image{
+    width: 10%;
+}
+.footer_copyright p{
+    font-size: 20px !important;
+}
+
+.btn_size{
+    font-size: 1.5rem !important;
+    padding: 10px !important ;
+}
+
+@media screen and (max-width:600px) {
+    .stack-md {
+        background-color: #fbc50b;
+        border-radius: 10px;
+        margin-left: 0%  !important;
+        margin-top: 10rem !important;
+    }
+    
+}
+
+.wyz_top{
+    padding: 50px 5px 50px 5px !important;
+    
+}

@@ -1,0 +1,71 @@
+.dsIn-img{
+    width: 65%;
+height: 40px !important;
+}
+.dsIn-img1{
+    width: 40%;
+height: 40px !important;
+}
+.dsIn-img2{
+    width: 40%;
+    height: 130px !important;
+}
+.ds-ju{
+    margin-top: -23px;
+    padding: 10px !important;
+}
+
+.foo-h6{
+    font-size: smaller;
+    color: darkgray;
+    text-align: center;
+}
+.carousel-inner{
+    border-radius: 8px;
+}
+
+.avlbal span {
+    color: #000;
+    padding: 7px 30px 7px 30px !important;
+    border: 1px solid #c9b152;
+    border-radius: 7px;
+    background: #f5d66b;
+}
+.modal-title{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-content: center !important;
+}
+@media (min-width: 768px){
+.avlbal {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+
+}
+}
+
+
+.avlbal {
+    justify-content: space-between;
+    margin: 7px 0px;
+    background: #000;
+    border-radius: 7px;
+    padding: 18px 0 15px 0;
+    text-align: right;
+    width: 80% !important;
+}
+
+.input_width {
+    width: 39% !important;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: unset;
+    border: unset;
+}
+
+.avlbal h5 input {
+    /* width: 47.5%; */
+    text-align: center;
+    min-width: 150px !important;
+    background-color: #f5d66b;
+}

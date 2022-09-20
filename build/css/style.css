@@ -1,0 +1,442 @@
+
+body{
+	background-color: #fff;
+   /* font: 500 1rem "Cairo",Arial,Helvetica,sans-serif;*/
+    font-family: MessinaSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    color: #000;
+
+}
+.fixed {
+    
+    top:0; left:0;
+    width: 100%;
+    background: #e8e8e8;
+    z-index:1;
+    transition: 0.6s ease-in-out;
+    }
+#main-head.header-fix{
+    position:fixed;
+    z-index:999; 
+    background: #e8e8e8;
+    transition: 0.6s ease-in-out;
+}
+#main-head.header-fix .bg-top {display: none; transition: 0.6s ease-in-out;}
+#main-head.header-fix .navbar{padding: 0;}
+#main-head.header-fix .navbar-brand::before {border-bottom: 76px solid rgb(253, 200, 5);}
+
+
+html {
+  scroll-padding-top: 100px;
+}
+
+@media(max-width: 768px){
+    html {
+      scroll-padding-top: 150px;
+    }
+}
+.wyzHeader{}
+.wyzHeader .navbar{
+    padding: 0;
+}
+.wyzHeader .navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    padding: 8px 22px;
+    font-weight: 500;
+    min-width: 104px;
+    margin: 0 4px;
+    text-align: center;
+}
+.wyzHeader .navbar-dark .navbar-brand img{
+    /*height: 78px;*/
+}
+
+.teli_icon a {
+    background: #fbc50b;
+    border-radius: 75px;
+    
+}
+.teli_icon a img{
+    height: 34px;
+}
+.teli_icon a:hover, .teli_icon a:active, .teli_icon a:focus{
+    background-color: #faf3df;
+    color: #fff !important;
+    transition: 0.6s ease-in-out;
+}
+.teli_icon a:active, .teli_icon a:focus{
+    background-color: #fbc50b;
+    color: #fff !important;
+    transition: 0.6s ease-in-out;
+}
+.wyzHeader .navbar-dark .navbar-toggler{
+    background: #000;
+    padding: 8px 12px;
+    font-size: 23px;
+}
+.py_0{
+    padding: 3px 12px !important;
+}
+.px_set {}
+.px_set a{padding: 4px 13px !important;}
+.teli_icon a i{color: #fff;}
+
+
+.logo_set img{height: 78px;}
+@media (min-width: 576px){
+	.wyzHeader .navbar-expand-sm .navbar-collapse {
+	    justify-content: right;
+	}
+}
+@media(min-width: 768px){
+	.mr_5{
+		margin-right: 15px;
+	}
+}
+@media(max-width: 768px){
+	.wyzHeader .navbar-nav{
+        position: absolute; 
+        z-index: 999;
+        background: #e8e8e8;
+        padding: 5px 5px 31px 5px;
+        width: 100%;
+        left: 0;
+    }
+	.wyzHeader .navbar-nav .nav-item{
+		background-color:#e8e8e8;
+	}
+	.px_set{
+    width: 45px;
+    margin-bottom: 1rem;
+	}
+    .navbar-dark .navbar-toggler {
+        color: #fff;
+        border-color: rgba(255,255,255,.1);
+    }
+    .teli_icon a{
+        max-width: 140px;
+        margin: 11px auto !important;
+    }
+
+}
+
+/*-----------------banner-------------------*/
+.wyz_top{padding-top: 4rem; padding-bottom: 3rem;}
+
+.get_btn{margin-top: 2rem;}
+.get_btn a {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(25, 44, 48);
+    border: 1.5px solid rgb(234, 234, 234);
+    cursor: pointer;
+    background-color: #fbc50b;
+    border-radius: 40px;
+    padding: 11px 30px;
+    transition: 0.6s ease-in-out;
+}
+.get_btn a:hover{
+    background-color: #faf3df;
+    transition: 0.6s ease-in-out;
+    color: #fff;
+}
+.btn_outline:focus{
+    outline: unset;
+    box-shadow: unset;
+}
+.wyz_banner{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.yeep_py{
+    padding-top: 4rem;
+}
+.yeep_pt{
+    padding-top: 1rem;
+}
+.wyz_banner h1{
+    font-weight: 500;
+   font-size: 37PX;
+    /*word-break: break-all;*/
+}
+.wyz_content{}
+.wyz_content p{}
+.yeep_img{}
+.yeep_img img{
+    width: 100%;
+    border-radius: 9px;
+}
+
+
+
+/*---------open popup start----------*/
+
+
+.overlay10 {
+    position: relative;
+    border-radius: 35px;
+    padding: 7px 15px;
+}
+
+.overlay10-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    background: #383836;
+    color: #fff;
+    box-shadow: 0px 0px 12px 0px #f4c32d;
+    border-radius: 9px;
+}
+
+.overlay10 a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #040404;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay10 a:hover, .overlay10 a:focus {
+    color: #000;
+}
+
+
+.overlay10 .closebtn {
+    position: absolute;
+    top: 25px;
+    right: 24px;
+    color: #fff !important;
+    font-size: 34px;
+    cursor: pointer;
+    z-index: 9;
+    line-height: 23px;
+}
+
+.overlay10-content p{
+    display: inline-flex;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding: 12px 0;
+    line-height: 30px;
+    font-size: 500;
+}
+.overlay10-content p a{
+    color: #dfddd9;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.overlay10-content p a:hover{
+    color: #dfddd9;
+}
+
+
+.yeep_compare{
+    text-align: center;
+    padding-top: 1rem;
+}
+.yeep_differ{
+    display: inline-flex;
+}
+
+.yeep_logo{}
+.yeep_logo img{
+    height: 100px;
+}
+.Add_Icon{
+    line-height: 7rem;
+}
+.Add_Icon img{
+    height: 46px;
+    margin: 22px;
+}
+
+/*----footer css start-----*/
+
+.footer_section{
+    padding: 61px 0 5px 0;
+    border-top: 1px solid #d5d2ca;
+    margin-top: 2rem;
+}
+.footer_content{
+    text-align: center;
+}
+.footer_content p{
+    margin: 0;
+    font-size: 29px;
+    font-weight: 500;
+}
+.footer_bottom{
+    border-top: 1px solid #d5d2ca;
+    padding-top: 20px;
+    margin-top: 3rem;
+    padding-bottom: 10px;
+}
+.footer_social {}
+.footer_social a {
+    background: #383836;
+    color: #fbc50b;
+    width: 39px;
+    height: 39px;
+    font-size: 13px;
+    margin-right: 6px;
+    text-align: center;
+    border-radius: 42px;
+    transition: 0.6s ease-in-out;
+    border: 0.13rem dashed;
+}
+.footer_social a i{
+    padding-top: 6px;
+}
+
+.footer_social a:hover{
+    background: #fbc50b;
+    color: #fff;
+    transform: rotate(360deg);
+    transition: 0.6s ease-in-out;
+}
+.footer_social a:focus{
+    box-shadow: 0 0 0 0.25rem #ffc10742;
+    transition: 0.6s ease-in-out;
+}
+
+.footer_copyright{}
+.footer_copyright p{
+    text-align: right;
+}
+
+
+
+
+
+
+.mt_0{margin-top: 0;}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #ffb612;
+  color: white;
+  cursor: pointer;
+  padding: 0px 14px;
+border-radius: 55px;
+line-height: 42px;
+}
+
+#myBtn:hover {
+  background-color: #000;
+}
+#myBtn img{height: 17px;}
+
+
+.btn_all {
+    z-index: 9;
+    background: #000;
+    border-radius: 55px;
+    padding: 10px 23px;
+    margin: 11px 0;
+    font-size: 18px;
+    min-width: 194px;
+    color: #fff;
+    border-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+.btn_all::before {
+    content: "";
+    z-index: -9;
+    position: absolute;
+    width: 0px;
+    height: 48px;
+    background: #383836;
+    left: 0;
+    top: 0;
+    border-radius: 55px;
+    transition: 0.6s ease-in-out;
+}
+.btn_all:hover::before {
+    width: 100%;
+    transition: 0.6s ease-in-out;
+}
+
+.btn_effct {
+    z-index: 9;
+    background: #000;
+    border-radius: 55px;
+    padding: 10px 23px;
+    margin: 11px 0;
+    font-size: 18px;
+    min-width: 194px;
+    color: #fff;
+    border-color: #000;
+    position: relative;
+    overflow: hidden;
+}
+.btn_effct::before {
+    content: "";
+    z-index: -9;
+    position: absolute;
+    width: 0px;
+    height: 41px;
+    background: #383836;
+    left: 0;
+    top: 0;
+    border-radius: 55px;
+    transition: 0.6s ease-in-out;
+}
+.btn_effct:hover::before {
+    width: 100%;
+    transition: 0.6s ease-in-out;
+}
+.yeep_maxwth p{}
+.yeepule_img{}
+.yeepule_img img{
+    width: 100%;
+    border-radius: 9px;
+}
+.mb_6{
+
+}
+
+
+
+@media (max-width: 768px){
+    .overlay10-content p {
+        line-height: 30px;
+        padding: 12px 38px 12px 14px;
+        text-align: left;
+        display: inherit;
+        font-size: 16px;
+    }
+    .overlay10-content p a{
+        font-size: 16px;
+    }
+    .footer_copyright p{
+        text-align: left;
+    }
+    .footer_bottom{
+        padding-left: 20px;
+    }
+    .py_mob {
+        padding-top: 1rem;
+    }
+    .yeep_img {
+        margin-top: 2rem;
+    }
+    
+    .mt_5{margin-top: 22px;}
+    .footer_copyright {
+        margin-top: 1rem;
+    }
+    
+    .mb_6 {
+        margin-top: 3rem;
+    }
+}

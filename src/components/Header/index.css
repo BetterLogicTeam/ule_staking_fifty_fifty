@@ -1,0 +1,128 @@
+.loaders {
+  border: 16px solid #000;
+  border-radius: 50%;
+  border-top: 16px solid #fbc50b;
+  border-bottom: 16px solid #fbc50b;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.left-menu-icon {
+  display: none !important;
+}
+@media only screen and (max-width: 600px) {
+  .left-menu-icon {
+    display: inline !important;
+  }
+}
+
+.wyz_bridge {
+  background: #171717;
+  margin-top: 23px;
+  border-radius: 6px;
+  text-align: center;
+  padding: 14px 16px;
+}
+.wyz_bridge p {
+  margin-bottom: 0 !important;
+  text-align: center;
+  display: inline-flex;
+  font-size: 18px;
+  color: #fbc50b;
+  font-weight: 500;
+  line-height: 30px;
+}
+.wyz_bridge p a {
+  margin: 0 7px;
+}
+.wyz_bridge p a img {
+  height: 29px;
+}
+.set_relative {
+  position: relative;
+}
+.coming_soon {
+  font-size: 11px !important;
+  display: inherit !important;
+  position: absolute;
+  right: 29px;
+  top: 24px;
+  background: #171717;
+  color: #fbc50b;
+  border-radius: 4px;
+  padding: 0 2px 1px 2px;
+  line-height: 15px;
+}
+@media (max-width: 768px) {
+  .wyz_bridge p {
+    display: inherit;
+    text-align: left;
+  }
+  .wyz_bridge {
+    margin-top: 0;
+  }
+}
+.ind-a{
+  font-size: inherit !important;
+
+
+}
+.ind-img{
+  width: 125%;
+    position: absolute;
+    margin-left: -125px;
+}
+.top-bar-wrapper{
+  height: 7rem !important;
+}
+.menu-nav{
+  margin-top: 6px !important;
+
+}
+
+
+#member-layout li:hover .submenu {
+  max-height: initial !important;
+  padding: 1rem 0.5rem;
+}
+
+@media only screen and (max-width: 767px){
+#member-layout .submenu li a {
+    display: block;
+    background: #f2f2f5;
+    margin-bottom: 0.2rem;
+    max-width: 35rem !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2rem 1rem 0.2rem 1rem !important;
+    border-radius: 5px;
+    font-size: 18px !important;
+}
+#member-layout .menu-nav {
+  display: none;
+  background: #fff;
+  padding: 0 10px;
+  margin-top: 580px;
+  width: 40rem !important;
+}
+}
